@@ -1,0 +1,70 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#my-contacts > li {
+    margin: 5px 0px 0px 0px;
+    color: #ffffff;
+    font-size: 13px;
+}
+.ContactDetails {
+    width: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 13px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid #00007F;
+    background: #0000FF;
+}
+
+.ContactDetailsss:hover,
+.ContactDetailsss:active {
+    background-color: #eee;
+}
+
+.EditDetails {
+    width: 98%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+    border: 0px solid #eee;
+    box-shadow: 0 0px 0px #ccc;
+    
+    text-align: left;
+    cursor: pointer;
+    display: inline-block;
+}
+.modal-lg {
+    max-width: 35% !important;
+}
+
+body.modal-open .modal .modal-dialog {
+    margin: auto;
+}
+
+.personName {
+    font-size: 29px;
+    margin:0px;
+    background: #ADD8E6;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+body.modal-header{
+    padding-bottom: 4px;
+    padding-top: 10px;
+}
+.modal-header {
+    padding-top : 5px !important;
+    padding-bottom : 5px !important;
+}
+.modal-body{
+    padding: 10px !important;
+}
